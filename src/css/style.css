@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import "vendors/normalize.css";
 
 @import "utils/variables.css";
@@ -10,7 +11,15 @@
 
 @import "components/components.css";
 
+header {
+    font-family:'Roboto', sans-serif;
+}
 
+body {
+    font-family: 'Mulish', sans-serif;
+};
 
-
+footer {
+    background-color: blueviolet;
+}
 
