@@ -13,33 +13,70 @@
 
 
 header {
-    position: fixed;
-}
-.header {box-sizing: border-box;
-position: FI;
-left: 0%;
-right: 0%;
-top: 21.54%;
-bottom: 0%;
-background: #000000;
-border-radius: 0px 0px 32px 32px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0%;
+    background: #000000;
+    border-radius: 0px 0px 32px 32px;
 }
 
+.header_body {position: absolute;
+    width: 375px;
+    height: 330px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
+    }   
 .logo_mini {
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-left:  30px;
+    padding-bottom:  10px;
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 6;
+        position: rela;
+         margin-top: -40px;
+         width: 375px;
+         height: 330px;
+         background: #000000;
+         box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85); 
+         transform : skew(30deg, 20deg); 
+        }
+    
+    .div2{ grid-area: 2 / 2 / 5 / 5;
+        position: relative;
+        left: -20px;
+    }
 
 .menu {
-    position: relative;
-   
-}
-.logo {
-    margin-top: 0px;
-}
+    padding-top: 30px;
+    padding-right:  20px;
+    padding-bottom:  10px;
+    }
+
+
 body {
     font-family: 'Mulish', sans-serif;
+}
+
+.text_intro {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #3A3941;
 }
 
 
