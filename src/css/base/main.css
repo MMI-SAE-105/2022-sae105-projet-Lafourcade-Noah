@@ -22,6 +22,10 @@ pour faire disparaître le scroll sur safari IOS */
 }
 
 h1 {
+   
+}
+
+h2 {
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 800;
@@ -29,8 +33,7 @@ h1 {
     line-height: 38px;
     letter-spacing: 0.015em;
     margin-left: 30px;
-
-color: #131313;
+    color: #131313;
 }
 
 .text {
