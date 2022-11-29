@@ -1,27 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @import "vendors/normalize.css";
-
 @import "utils/variables.css";
-
-@import "css/base/main.css";
-
+@import "base/main.css";
 @import "layout/composition.css";
-
+@import "layout/header.css";
 @import "components/components.css";
 
 
-header {
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    bottom: 0%;
-    background: #000000;
-    border-radius: 0px 0px 32px 32px;
-}
-
-.header_body {position: absolute;
+.header_body {
     width: 375px;
     height: 330px;
     left: 0px;
@@ -29,6 +18,7 @@ header {
     background: #000000;
     box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
     }   
+    
 .logo_mini {
     padding-top: 30px;
     padding-left:  30px;
@@ -43,14 +33,15 @@ header {
     grid-row-gap: 0px;
     }
     
-    .div1 { grid-area: 1 / 1 / 6 / 6;
-        position: rela;
-         margin-top: -40px;
-         width: 375px;
-         height: 330px;
+    .div1 { 
+         grid-area: 1 / 1 / 6 / 6;
+         margin-top: -100px;
+         max-height: 330px;
+     
          background: #000000;
          box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85); 
-         transform : skew(30deg, 20deg); 
+         rotate: -10deg;
+         
         }
     
     .div2{ grid-area: 2 / 2 / 5 / 5;
@@ -69,7 +60,8 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-.text_intro {
+.text {
+    position: relative;
     margin-top: 30px;
     margin-left: 30px;
     font-style: normal;
@@ -79,11 +71,47 @@ line-height: 18px;
 color: #3A3941;
 }
 
+.rectangle {
+background: #000000;
+box-shadow: 5px 3px 25px rgba(0, 0, 0, 0.85);
 
 
+}
+
+#rec {
+    overflow-x: hidden;
+    height: 350px;
+}
 
 
+.card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .rd { grid-area: 2 / 2 / 6 / 5;
+        
+        left: 0.3%;
+        right: 0%;
+        top: 0.95%;
+        bottom: 87.27%;
+        
+        background: linear-gradient(125.06deg, #000000 -2.31%, #000000 97.12%);
+        opacity: 0.6;
+        filter: blur(13px);
+        border-radius: 10px; }
+        
+    .ra { grid-area: 2 / 2 / 5 / 5; 
+  
+        left: 0.3%;
+        right: 0%;
+        top: 0%;
+        bottom: 88.22%;
+        background: #FFFFFF;
+        border-radius: 10px;}
+   
 
-
-
-
+    
