@@ -14,7 +14,6 @@
     width: 375px;
     height: 330px;
     left: 0px;
-    top: 0px;
     background: #000000;
     box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
     }   
@@ -31,23 +30,33 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-bottom: -80px;
     }
     
-    .div1 { 
+    .div_rec { 
+        position: relative;
          grid-area: 1 / 1 / 6 / 6;
          margin-top: -100px;
+         margin-right: -100px;
          max-height: 330px;
-     
          background: #000000;
          box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85); 
          rotate: -10deg;
          
         }
-    
-    .div2{ grid-area: 2 / 2 / 5 / 5;
+     .div_rec_r{ grid-area: 2 / 2 / 5 / 5;
+        position: absolute;
+        width: 283px;
+        height: 34px;
+        top: 63px;
+        background: #FF0000;
+     }
+    .div_logo{ grid-area: 2 / 2 / 5 / 5;
         position: relative;
-        left: -20px;
+        left: -10px;
     }
+   
+    
 
 .menu {
     padding-top: 30px;
@@ -74,13 +83,18 @@ color: #3A3941;
 .rectangle {
 background: #000000;
 box-shadow: 5px 3px 25px rgba(0, 0, 0, 0.85);
+rotate: -10deg;
 
 
 }
 
 #rec {
+    position: relative;
     overflow-x: hidden;
     height: 350px;
+    margin-left: -35px;
+    margin-top: -35px;
+    
 }
 
 
