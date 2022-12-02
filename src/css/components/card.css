@@ -1,0 +1,28 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .rd { grid-area: 2 / 2 / 6 / 5;
+        
+        left: 0.3%;
+        right: 0%;
+        top: 0.95%;
+        bottom: 87.27%;
+        
+        background: linear-gradient(125.06deg, #000000 -2.31%, #000000 97.12%);
+        opacity: 0.6;
+        filter: blur(13px);
+        border-radius: 10px; }
+        
+    .ra { grid-area: 2 / 2 / 5 / 5; 
+        position: absolute;
+        left: 0.3%;
+        right: 0%;
+        top: 0%;
+        bottom: 88.22%;
+        background: #FFFFFF;
+        border-radius: 10px;}
