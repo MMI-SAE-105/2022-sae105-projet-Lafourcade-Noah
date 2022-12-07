@@ -1,28 +1,71 @@
+
+.textcard1 {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: bold;
+}
+.Titlecard1 {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: bold;
+}
+
 .card {
-    display: grid;
+    margin-top: 40px;
+    display: Grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
     
-    .rd { grid-area: 2 / 2 / 6 / 5;
-        
-        left: 0.3%;
-        right: 0%;
-        top: 0.95%;
-        bottom: 87.27%;
-        
-        background: linear-gradient(125.06deg, #000000 -2.31%, #000000 97.12%);
-        opacity: 0.6;
-        filter: blur(13px);
-        border-radius: 10px; }
-        
-    .ra { grid-area: 2 / 2 / 5 / 5; 
-        position: absolute;
-        left: 0.3%;
-        right: 0%;
-        top: 0%;
-        bottom: 88.22%;
+    .Feur { grid-area: 1 / 1 / 6 / 6; 
+        margin-left: 10px;
         background: #FFFFFF;
-        border-radius: 10px;}
+        box-shadow: 0px 11px 16px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        width: 328px;
+        height: 160px;
+
+}
+    .For { grid-area: 2 / 1 / 5 / 3;
+    width: 118px;
+    height: 84px;
+    }
+
+    .fur { 
+        display: flex;
+        position: absolute;
+        padding-top: 15px;
+        left: 200px;
+    }
+
+    .ez { grid-area: 5 / 3 / 6 / 5;
+    position: absolute;
+    width: 117px;
+    height: 43px;
+    margin-left: 190px;
+    top: 625px;
+    background: #000000;
+    box-shadow: 0px 14px 24px 5px rgba(0, 0, 0, 0.38);
+    border-radius: 8px; 
+    }
+ 
+.arrow {
+    position: absolute ;
+    top: 11px;
+    left: 35px;
+    width: 40%;
+} 
+
+.imag {
+    position: relative;
+        width: 128px;
+        height: 84px;
+        padding-left: 35px;
+        top: -130px;
+        
+    }
