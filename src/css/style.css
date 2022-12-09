@@ -6,6 +6,9 @@
 @import "components/components.css";
 @import "components/card.css";
 @import "fonts/fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 .header_body {
