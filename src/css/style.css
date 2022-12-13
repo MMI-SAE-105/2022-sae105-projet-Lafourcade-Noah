@@ -6,9 +6,12 @@
 @import "components/components.css";
 @import "components/card.css";
 @import "fonts/fonts.css";
+@import "layout/footer.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 
 
 .header_body {
@@ -92,40 +95,28 @@ color: #3A3941;
     
 }
 
+.footer {
 
-.card {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .rd { grid-area: 2 / 2 / 6 / 5;
-        
-        left: 0.3%;
-        right: 0%;
-        top: 0.95%;
-        bottom: 87.27%;
-        
-        background: linear-gradient(125.06deg, #000000 -2.31%, #000000 97.12%);
-        opacity: 0.6;
-        filter: blur(13px);
-        border-radius: 10px; }
-        
-    .ra { grid-area: 2 / 2 / 5 / 5; 
-  
-        left: 0.3%;
-        right: 0%;
-        top: 0%;
-        bottom: 88.22%;
-        background: #FFFFFF;
-        border-radius: 0px;}
-   
-.image_structure {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    margin-bottom: -20px;
+rotate: 10deg;
+background:;
+
 }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.text_footer {
+    color: white;
     
+}
+
+#footer {
+
+    position: relative;
+    overflow-x: hidden;
+    
+    
+}
