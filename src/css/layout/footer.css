@@ -1,6 +1,16 @@
 footer {
-    background-color: #000000;
-}
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        top: 0%;
+        background: #000000;
+        border-radius: 0px 0px 32px 32px;
+        z-index: 1;
+        
+        
+    }
+    
+
 
 a {
     text-decoration: none;
