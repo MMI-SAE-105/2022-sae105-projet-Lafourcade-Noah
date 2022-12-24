@@ -1,15 +1,33 @@
-footer {
-        bottom: 0;
-        display: flex;
-        justify-content: space-between;
-        top: 0%;
-        background: #000000;
-        border-radius: 0px 0px 32px 32px;
-        z-index: 1;
-        
-        
-    }
-    
+.parentf {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div_frec {
+    grid-area: 2 / 2 / 5 / 5;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -100px;
+    max-height: 330px;
+    background: #000000;
+    box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
+    rotate: -10deg;
+}
+
+.div2 {
+    grid-area: 2 / 2 / 3 / 3;
+
+
+}
+
+.div3 {
+    grid-area: 3 / 2 / 5 / 3;
+
+}
+
 
 
 a {
