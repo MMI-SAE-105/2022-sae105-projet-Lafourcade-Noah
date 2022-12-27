@@ -1,17 +1,24 @@
 
 h1 {
     position: absolute;
-    width: 299px;
-    height: 61px;
-    right: 54px;
-    top: 128px;
+    width: 338px;
+    height: 158px;
+    right: 18px;
+    top: 124px;
+    
+    /* Titre */
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
-letter-spacing: 0.075em;
-color: white;
+    letter-spacing: 0.075em;
+    
+    /* Couleur Titre */
+    
+    color: #FFFFFF;
+
    
 }
 
