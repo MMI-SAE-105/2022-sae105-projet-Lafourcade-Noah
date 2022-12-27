@@ -2,17 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .textcard1 {
+    position: relative;
+    margin-top: 25px;
     font-size: 14px;
     font-family: inter;
     font-weight: bold;
     margin-left: -20px;
+    color: #000000;
 }
 .Titlecard1 {
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 20px;
     font-family: inter;
     font-weight: bold;
     margin-left: -20px;
+    color: #000000;
 }
 
 .card {
@@ -53,8 +57,8 @@
     position: absolute;
     width: 117px;
     height: 43px;
-    top: -105px;
-    Left: -200px;
+    top: -20px;
+    Left: 50px;
     background: #000000;
     box-shadow: 0px 14px 24px 5px rgba(0, 0, 0, 0.38);
     border-radius: 8px; 
@@ -73,5 +77,4 @@
         height: 84px;
         padding-left: 35px;
         top: 40px;
-        
     }
