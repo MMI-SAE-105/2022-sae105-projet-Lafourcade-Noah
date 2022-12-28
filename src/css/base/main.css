@@ -5,6 +5,7 @@ h1 {
     height: 158px;
     right: 18px;
     top: 124px;
+   
     
     /* Titre */
     
@@ -13,7 +14,7 @@ h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.065em;
     
     /* Couleur Titre */
     
@@ -32,6 +33,13 @@ h2 {
     margin-left: 30px;
     color: #131313;
 }
+
+.Jojo-title {
+    position: absolute;
+    margin-top: -25px;
+}
+
+
 
 .text {
     position: relative;
@@ -53,6 +61,8 @@ body {
     width: 375px;
     height: 330px;
     left: 0px;
+    right: 0px;
+   
     background: #000000;
     box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
     }   
