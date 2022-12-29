@@ -34,6 +34,10 @@ h2 {
     color: #131313;
 }
 
+.image_structure {
+    max-width: 100%;
+}
+
 .Jojo-title {
     position: absolute;
     margin-top: -25px;
