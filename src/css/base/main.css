@@ -78,6 +78,8 @@ body {
     padding-bottom:  10px;
 }
 
+/*header body*/
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -111,12 +113,22 @@ body {
     }
    
     
+#rec {
+    position: relative;
+    overflow-x: hidden;
+    height: 350px;
+    margin-left: -35px;
+    margin-top: -35px;
+    
+}
+
 .menu {
     padding-top: 30px;
     padding-right:  20px;
     padding-bottom:  10px;
     }
 
+/* Font style */
 
 body {
     font-family: 'Mulish', sans-serif;
@@ -133,13 +145,4 @@ font-size: 14px;
 line-height: 18px;
 color: #3A3941;
 
-}
-
-#rec {
-    position: relative;
-    overflow-x: hidden;
-    height: 350px;
-    margin-left: -35px;
-    margin-top: -35px;
-    
 }

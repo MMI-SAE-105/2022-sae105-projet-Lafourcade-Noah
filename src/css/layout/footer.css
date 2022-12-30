@@ -1,31 +1,41 @@
 .parentf {
     display: grid;
+    padding-bottom: 100px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    overflow: hidden;
+
 }
 
 .div_frec {
     grid-area: 2 / 2 / 5 / 5;
-    position: absolute;
-    margin-top: -10px;
-    margin-right: -100px;
-    max-height: 330px;
+    position: relative;
+    margin-right: -250px;
+    margin-left: -150px;
+    max-height: 530px;
+    margin-bottom: -200px;
     background: #000000;
-    box-shadow: -7px -10px 25px 20px rgba(0, 0, 0, 0.85);
     rotate: -10deg;
 }
 
-.div2 {
-    grid-area: 2 / 2 / 3 / 3;
-
-
+.text_footer_li {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    color: white;
+    font-style: normal;
+    line-height: 30px;
+    text-decoration: underline;
 }
 
-.div3 {
-    grid-area: 3 / 2 / 5 / 3;
-
+.text_footer {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: white;
+    font-style: normal;
 }
 
 
@@ -36,6 +46,16 @@ a {
 
 }
 
-.text_footer {
-    color: white;
+.logo_footer {
+    position: absolute;
+    max-width: 50%;
+    left: 180px;
+    top: 120px;
+}
+
+.mmi_logo {
+    position: absolute;
+    max-width: 18%;
+    top: 340px;
+    left: 310px;
 }
