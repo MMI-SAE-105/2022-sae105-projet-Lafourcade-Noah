@@ -32,7 +32,7 @@
 
 .text_footer {
     position: absolute;
-    top: 250px;
+    top: 220px;
     left: 50px;
     color: white;
     font-style: normal;
@@ -58,4 +58,12 @@ a {
     max-width: 18%;
     top: 340px;
     left: 310px;
+}
+
+.text_g {
+    font-weight: bold;
+}
+
+.text_i {
+    font-style: italic;
 }
