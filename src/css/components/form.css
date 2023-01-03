@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+form {
+  display: flex;
+  box-sizing: border-box;   
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.inputBox {
+  position: relative;
+  width: 250px; 
+}
+.inputBox input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+}
+
+.inputBox span {
+  position: absolute;
+  margin-top: -40px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+
+  
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  font-size: 0;
+}
+
+#fname {
+    margin-top: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+}
