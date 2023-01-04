@@ -69,16 +69,17 @@ form {
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
+  touch-action: manipulation;
   width: 100%;
 }
 
 .button-28:disabled {
-  pointer-events: none;
+  pointer-events:painted;
 }
 
 .button-28:hover {
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: #000000;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
