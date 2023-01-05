@@ -151,6 +151,7 @@ body {
 .filmo_card {
     display: flex;
     padding: 20px;
+    padding-top: 0%;
 }
 
 .image_filmo {
@@ -174,17 +175,48 @@ body {
     letter-spacing: 0.015em;
     color: transparent;
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color:#ffffff;
+    -webkit-text-stroke-color: #ffffff;
 }
 
-.texte {
-    position: absolute;
+.texte_b {
+    position: relative;
     font-family: 'Roboto';
     font-style: italic;
+  top: 15px;
     font-weight: 800;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 30px;
+    line-height: 23px;
     letter-spacing: 0.015em;
     margin-left: 30px;
     color: #131313;
+
+}
+
+.texte {
+    display: block;
+    margin-inline-end: -20px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: italic;
+    top: 8px;
+    right: 23px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.015em;
+    margin-left: 30px;
+    color: #131313;
+}
+
+.r_blanc {
+    position: relative;
+    width: 155px;
+    height: 57px;
+    bottom: 80px;
+    margin-bottom: -50px;
+    left: 200px;
+    background: #ffffff;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.47);
+    border-radius: 8px;
+
 }
