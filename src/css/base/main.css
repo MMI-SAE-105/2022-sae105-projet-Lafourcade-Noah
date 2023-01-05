@@ -29,6 +29,7 @@ h2 {
     letter-spacing: 0.015em;
     margin-left: 30px;
     color: #131313;
+    padding-right: 20px ;
 }
 
 .image {
@@ -56,6 +57,7 @@ h2 {
 }
 
 body {
+    margin: 0;
     background-color: #d6d6d6;
 }
 
@@ -220,4 +222,46 @@ body {
     box-shadow: -1px 11px 20px 0px rgb(0 0 0 / 47%);
     border-radius: 8px;
 
+}
+
+.jojo_part {
+    margin-bottom: -150px;
+}
+
+
+.jojo_image {
+    position: relative;
+    width: 344px;
+    height: 262px;
+    bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.r_noir {
+    position: relative;
+    bottom: 80px;
+    width: 117px;
+    height: 43px;
+    background: #000000;
+    box-shadow: 0px 14px 24px 5px rgba(0, 0, 0, 0.38);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.text_jojo {
+    position: relative;
+    bottom: 152px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.015em;
+    color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffffff;
 }
