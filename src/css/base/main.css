@@ -306,3 +306,20 @@ margin-right: auto;
     text-decoration: underline;
 }
 
+video {
+    box-shadow: 0px 2px 23px 8px rgba(0, 0, 0, 0.38);
+    border-radius: 26px;
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+
+iframe {
+    padding: 30px;
+    display: block;
+    margin: auto;
+ 
+
+}
+
