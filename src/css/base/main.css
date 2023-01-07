@@ -277,7 +277,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    padding-left: 30px;
     color: #3A3941;
 }
 
@@ -291,9 +290,19 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.avatar_block {
+    position: relative;
+    display: block;
+    text-align: center;
+    
+}
+
 .avatar {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 20%;
-  
+    max-width: 50%;
+    margin-top: 20px;
+    text-decoration: underline;
 }
+
