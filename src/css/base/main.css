@@ -39,6 +39,11 @@ h2 {
 
 .Jojo-title {
     position: absolute;
+    margin-top: -20px;
+}
+
+.regret_title {
+    position: absolute;
     margin-top: -25px;
 }
 
