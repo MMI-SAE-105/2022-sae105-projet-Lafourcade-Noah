@@ -328,3 +328,12 @@ iframe {
     box-shadow: 0px 2px 23px 8px rgba(0, 0, 0, 0.38);
 }
 
+.text_image {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -20px;
+    margin-left: 35px;
+    color: #757575;
+}
