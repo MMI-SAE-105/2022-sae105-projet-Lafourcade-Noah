@@ -1,7 +1,7 @@
 - NOM : Lafourcade
 - PRÉNOM : Noah
-- URL du site :
-- URL FIGMA :
+- URL du site : time-capsule.noahlafourcade.fr
+- URL FIGMA : https://www.figma.com/file/nSjL3re8jvAscdXqRYnoV9/Untitled-(Copy)?node-id=297%3A5270&t=qbD7Lq5XkIwmaqjC-1
 
 # Structure de départ pour le projet individuel.
 
