@@ -337,3 +337,15 @@ iframe {
     margin-left: 35px;
     color: #757575;
 }
+
+.texte_header {
+    font-family: 'Roboto';
+    font-style: italic;;
+    font-size: 23px;
+    line-height: 38px;
+    margin-top: 27px;
+    margin-right: 80px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+
+}
