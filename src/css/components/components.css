@@ -1,0 +1,79 @@
+.filmo_card {
+    display: flex;
+    padding: 20px;
+    padding-top: 0%;
+
+}
+
+.image_filmo {
+    width: 265px;
+    height: 149px;
+    left: 32px;
+    top: 1554px;
+}
+
+.r_blanc {
+    position: relative;
+    width: 155px;
+    height: 57px;
+    bottom: 80px;
+    margin-bottom: -50px;
+    left: 200px;
+    background: #000000;
+    box-shadow: -1px 11px 20px 0px rgb(0 0 0 / 47%);
+    border-radius: 8px;
+
+}
+
+.jojo_part {
+    margin-bottom: -150px;
+}
+
+
+.jojo_image {
+    position: relative;
+    width: 344px;
+    height: 262px;
+    bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.r_noir {
+    position: relative;
+    bottom: 80px;
+    width: 117px;
+    height: 43px;
+    background: #000000;
+    box-shadow: 0px 14px 24px 5px rgba(0, 0, 0, 0.38);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.line2 {
+    width: 335px;
+    height: 0px;
+    left: 1px;
+    top: -1542px;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar_block {
+    position: relative;
+    display: block;
+    text-align: center;
+
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-top: 20px;
+    text-decoration: underline;
+}
