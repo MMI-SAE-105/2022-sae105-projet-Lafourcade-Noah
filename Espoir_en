@@ -12,8 +12,10 @@
 
 <header>
 
-    <a href="Index_en.html">  <img class="logo_mini" src="public/img/Logo_mini.svg" alt="logo time capsule"> </a>
-    <a href="regret.html"> <p class="texte_header">FR</p></a>
+    <a href="Index_en.html"> <img class="logo_mini" src="public/img/Logo_mini.svg" alt="logo time capsule"> </a>
+    <a href="regret.html">
+        <p class="texte_header">FR</p>
+    </a>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
@@ -43,43 +45,46 @@
 
     <section>
 
-
         <div class="parent" id="rec">
             <div class="div_rec"> </div>
 
             <div class="div_rec_r"> </div>
 
-
     </section>
     <main>
-        <h1 class="regret_title">: A WORLD TOO CONNECTED</h1>
-        <h2>: Internet and its influence</h2>
+        <h1>A REBUILD FUTURE</h1>
 
-        <p class="text"> “Internet” has become a technology that we can no longer do without, whether
-            we like it or not. Today, everything goes through the internet, despite its
-            enormous influence, the internet is extremely young and is no more than 30 years
-            old, it is all the more impressive when today we know that young people spend
-            more than 4 hours of their time on it. Indeed, Generation Z has become extremely
-            dependent on the internet and in particular on social networks and it is not
-            surprising when we know that it was born into it.
-        </p>
+        <h2>Young people, the solution for a better world</h2>
 
-        <p class="text">Contrary to the other
-            generations who have seen them appearGeneration Z is immersed in technology in their daily lives, they were born with it
-            and cannot live without it. The Internet and social networks are their main
-            communication tool for interacting, whether in private or at work.This generation is permanently connected. She only identifies herself with and
-            through social networks. Much more realistic than their predecessors, for them
-            life and work must be a fluid process, which brings well-being to everyday life.
-            </p>
+        <p class="text"> Although they consider themselves very informed about environmental issues
+            (self-assessment 7/10), young people still admit that they are unaware of the
+            issue and the impact of human activity on the planet and do not seek to find out
+            more.They are also aware of a low level of daily engagement (4/10 during the
+            self-assessment of their specific actions). </p>
 
-        <img class="image" src="public/img/regret.webp" alt="espoir">
-        <p class="text_image"> : Image of a phone screen</p>
+        <p class="text"> For them, environmental "efforts" are
+            mainly focused on consumption. Thus, they cite purchasing power as the first
+            lever for environmental action. Still dependent on their parents, they don't feel
+            guilty for not taking action because they don't have the financial capacity to do
+            so.</p>
 
-        <p class="text">It gives more importance and is resolutely turned towards new media. The
-            retirement of baby boomers will allow this new generation to find a job more
-            quickly, in better conditions, it is to be wished!</p>
+        <img class="image" src="public/img/Espoir.webp" alt="">
+        <p class="text_image"> Group of young people on their phones</p>
 
+        <p class="text"> As said before, even if some do “nothing” to change the current state of the
+            planet, there are still some who do everything they can to keep doing a little
+            thing. Young people are aware that today’s world is in danger and that they have
+            a role to play in transforming the environment. Far from being passive victims,
+            they are more responsible on the subject. The proof is in the action of the
+            Swedish Greta Thunberg. An environmental activist, in 2018 she spearheaded the
+            global youth movement: Friday’s for future. </p>
 
+        <p class="text"> Therefore, this generation of social
+            and instant networks requires fast and specific responses. She is ready to change
+            their daily lives and adopt eco-friendly actions to save the Earth. His intentions of
+            our generation are therefore encouraging and positive for the future. It remains to
+            be hoped that this will continue!</p>
+    </main>
 </body>
 
 <footer>
